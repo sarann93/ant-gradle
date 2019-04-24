@@ -28,10 +28,5 @@
     <publications>
         <artifact name="sizewhere" type="jar" conf="core"/>
     </publications>
-    <dependencies>
-        <dependency name="version" rev="latest.integration" conf="core->default"/>
-        <dependency name="size" rev="latest.integration" conf="core->default"/>
-        <dependency name="find" rev="latest.integration" conf="core"/>
-        <dependency org="commons-cli" name="commons-cli" rev="1.0" conf="standalone->default"/>
-    </dependencies>
+
 </ivy-module>
